@@ -1,0 +1,70 @@
+body{
+	font-family: "Trebuchet MS", sans-serif;
+	background: #F2F3F4;
+}
+#tela_apostas{
+	margin: 20px auto;
+	/*border: 1px solid red;*/
+
+}
+td{
+	padding: 10px;
+}
+#titulo{
+	text-align: center;
+	margin: 20px auto;
+	width: 50%;
+	border: 1px solid black;
+}
+#cavalo1{
+	background: blue;
+	padding:0;
+}
+#cavalo2{
+	background: red;
+	padding:0;
+}
+#cavalos{
+	margin: auto;
+}
+#botao_inicio{
+	background: #339933;
+	color: #fff;
+	margin: auto;
+	width: 100px;
+	height: 50px; 
+	display: block;
+}
+#botao_reinicio{
+	background: #003399;
+	color: #fff;
+	margin: auto;
+	width: 150px;
+	height: 50px; 
+	display: block;
+}
+#radio_cavalo{
+	padding: 0;
+	margin: 0;
+
+}
+#placar{
+	display: block;
+	width: 100px;
+	margin: 50px auto;
+}
+#pista{
+	margin: 0 auto;
+
+	
+}
+#faixaFora{
+
+	border: 1px solid white;
+}
+#img_linhachegada{
+	margin: -10px;
+	padding:0;
+	height: 70px;
+	width: 20px; 
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game de Apostas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="gameApostas.js"></script>
+</head>
+<body onload="cria_pista()">
+<h1 id="titulo">The Jockey Club</h1>
+<div id="tela_apostas">
+
+	<table id="cavalos">
+		<tr>
+			<td id="cavalo1"><img src="img/cavalo.jpg" width="50px"></td>
+			<td id="cavalo2"><img src="img/cavalo.jpg" width="50px"></td>
+		</tr>
+		<tr>
+			<td id="radio_cavalo" align="center"><input type="radio" name="seleciona_cavalo" class="seleciona_cavalo" value="azul" required></td>
+			<td id="radio_cavalo" align="center"><input type="radio" name="seleciona_cavalo" class="seleciona_cavalo" value="vermelho"></td>
+
+		</tr>
+	</table>
+	<br>
+
+	<input id="botao_inicio" type="button" name="incio" value="Começar!" onclick="inicio()">
+	<br>
+
+	<table id="pista">
+		<tr id="faixaFora"></tr>
+
+		<tr id="faixaAzul"></tr>
+			
+		<tr id="faixaVermelha"></tr>
+	</table>
+
+	<span id="placar">Placar<br></span>
+
+	<br>
+
+	<input id="botao_reinicio" type="button" name="incio" value="Jogar Novamente" onclick="window.location.reload();">
+
+	<audio id="som_corrida" src="audio/trompete.mp3"></audio>
+	</div>
+</body>
+</html>
